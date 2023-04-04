@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Titillium+Web:wght@600&display=swap');
+*{
+    margin: 0;
+}
+.banner{
+    background: url(https://advancedpain.net/wp-content/uploads/2020/01/pain-management-doctor-1024x438-1.jpg);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner .heading{
+    width: 50%;
+    margin-left: 139px;
+    padding-top: 92px;
+}
+.banner .heading h1{
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+}
+.banner .heading button{
+    background-color: rgb(110, 122, 150);
+    color: white;
+    padding: 9px 20px;
+    width: 150px;
+}
+.bg1{
+    background-color: rgb(195 192 192);
+    color: white;
+}
+.bg2{
+    background-color: darkgray;
+    color: white;
+}
+.bg3{
+    background-color: gray;
+    color: white;
+}
+.cards{
+   display: flex;
+   margin: auto;
+   justify-content:center;
+    margin-top: -73px;
+}
+.cards .card{
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    padding: 30px 15px;
+    align-items: center;
+}
+.cards .card img{
+    width: 50px;
+}
+.card >p{
+    text-align: center;
+}
+.heading-2{
+    width: 700px;
+    margin-top: 80px;
+    margin-left: 637px;
+}
+.heading-2 h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.heading-2 p{
+    text-align: center;
+}
+
+.section{
+    display: flex;
+}
+.col-1{
+    width: 50%;
+    padding: 10px 155px;
+}
+.col-2{
+    width: 50%;
+}
+.col-2 img{
+    width: 579px;
+    height: 394px;
+}
+.content{
+    display: flex;
+    padding: 20px;
+}
+.content .icon img{
+    width: 65px;
+    height: 58px;
+    padding: 8px;
+}
+.content .desc h2{
+  padding-bottom: 2px;
+}
+
+.greyparent{
+    width: 100%;
+    height: 450px;
+
+}
+.greyparent .title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 76px;
+}
+.greyparent .title h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+}
+.greyparent .boxcover {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.greyparent .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.greyparent .box img{
+    width: 84px;
+    height: 66px;
+    padding-bottom: 22px;
+}
+.heart-care{
+    display: flex;
+    flex-direction: row;
+}
+.care1{
+    width: 50%;
+}
+.care1 img{
+    /* padding: 20px 40px; */
+    width: 450px;
+    display: flex;
+    margin: auto;
+    padding: 25px 0px;
+}
+.care2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 100px;
+}
+.wecare{
+    color: black;
+    padding-bottom: 38px;
+}
+.wecare .top{
+    margin: auto;
+    text-align: center;
+    padding-top: 68px;
+}
+.care-cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.care-card{
+    width: 400px;
+    background-color: white;
+
+}
+.care-card img{
+    width: 100%;
+    height: 288px;
+    padding-bottom: 8px;
+}
+.care-card h3,p,a{
+    padding: 10px;
+}
+.care-card a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+h2{
+    font-family: 'Oswald', sans-serif;
+}
+.globe img{
+    display: flex;
+    width: 550px;
+    height: 383px;
+    margin: auto;
+    align-items: center;
+}
+.global{
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.spltop{
+    text-align: center;
+    padding-top: 25px;
+}
+.doctors{
+    display: flex;
+    gap: 15px;
+}
+.doct{
+    width: 434px;
+    margin: auto;
+
+}
+.doct img{
+    width:434px ;
+    height: 450px;
+}
+.doct-desc{
+    padding: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.foothd{
+    text-align: center;
+    margin: auto;
+    margin-top: 35px;
+}
+form{
+    margin: auto;
+    margin-top: 4%;
+}
+input{
+    width: 500px;
+    height: 32px;
+    border: none;
+}
+textarea{
+    width: 500px;
+}
+::placeholder{
+    color: rgb(221, 218, 218);
+}
+form button{
+   padding: 3px 10px;    
+}
