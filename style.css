@@ -41,6 +41,7 @@
    margin: auto;
    justify-content:center;
     margin-top: -73px;
+    margin-bottom: 40px;
 }
 .cards .card{
     display: flex;
@@ -57,38 +58,30 @@
 }
 .heading-2{
     width: 700px;
-    margin-top: 80px;
-    margin-left: 637px;
+    margin: auto;
+    text-align: center;
 }
 .heading-2 h2{
     font-family: 'Oswald', sans-serif;
     font-size: 28px;
     font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.heading-2 p{
-    text-align: center;
-}
+ }
+
 
 .section{
     display: flex;
+    justify-content: center;
+    gap: 15px;
 }
-.col-1{
-    width: 50%;
-    padding: 10px 155px;
-}
-.col-2{
-    width: 50%;
-}
+
 .col-2 img{
     width: 579px;
     height: 394px;
 }
 .content{
     display: flex;
-    padding: 20px;
+    width: 620px;
+    margin: auto;
 }
 .content .icon img{
     width: 65px;
@@ -105,8 +98,6 @@
 
 }
 .greyparent .title{
-    display: flex;
-    flex-direction: column;
     text-align: center;
     padding-top: 76px;
 }
@@ -118,7 +109,6 @@
 .greyparent .boxcover {
     margin-top: 70px;
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 .greyparent .box{
@@ -134,13 +124,11 @@
 }
 .heart-care{
     display: flex;
-    flex-direction: row;
 }
 .care1{
     width: 50%;
 }
 .care1 img{
-    /* padding: 20px 40px; */
     width: 450px;
     display: flex;
     margin: auto;
@@ -164,10 +152,11 @@
 }
 .care-cards{
     display: flex;
-    flex-direction: row;
     margin-top: 100px;
-    justify-content: space-around;
+    justify-content: center;
     margin-bottom: 25px;
+    gap: 20px
+    ;
 }
 .care-card{
     width: 400px;
@@ -208,15 +197,16 @@ h2{
 .doctors{
     display: flex;
     gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
 }
 .doct{
-    width: 434px;
-    margin: auto;
+    width: 373px;
 
 }
 .doct img{
-    width:434px ;
-    height: 450px;
+    width:100% ;
+    height: 390px;
 }
 .doct-desc{
     padding: 20px;
@@ -234,6 +224,9 @@ h2{
 form{
     margin: auto;
     margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 input{
     width: 500px;
